@@ -57,6 +57,10 @@ section ul h3{
     font-size: 45px;
     font-family: work sans;
 }
+/* ajuste de skills*/
+.card:hover{
+ transition: .1s ease;
+}
 /*ajuste de footer*/
 footer{
  height: 60px;
