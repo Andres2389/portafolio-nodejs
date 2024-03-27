@@ -1,4 +1,73 @@
+/*ajuste inicial*/
+*{
+    font-family: work sans;
+    margin: 0;
+    padding: 0;
+    scroll-behavior:  1s smooth;
+}
+/* ajuste de body*/
 body{
-    background: #202020;
-    color: white;
+    background: linear-gradient(to bottom, #fff, #666,#ccc);
+    color: #000;
+    transition: 1s ease;
+}
+/* ajustes de cabecera*/
+.navbar-brand.fa-briefcase::before {
+    margin-right: 6px; 
+}
+.nav-item{
+    margin-left: 5px;
+}
+.nav-item .fa-house::before{
+    margin-right: 6px;
+}
+.nav-item .fa-user::before{
+    margin-right: 6px;
+    
+}
+.nav-item .fa-phone::before{
+    margin-right: 6px;
+}
+.nav-item .fa-superpowers::before{
+    margin-right: 6px;
+}
+.nav-item .fa-diagram-project::before{
+    margin-right: 6px;
+}
+/*ajuste de imagen principal*/
+img{
+    border-radius: 5em;
+    border: 1px solid #000;
+    box-sizing: content-box;
+    
+}
+/* ajuste de boton principal*/
+.btn {
+    background-color: #000;
+    color: #fff;
+    transition:   1s ease;
+}
+/* ajuste de section de about*/
+section ul{
+   background-color: #6a6e73; 
+   border: 3px solid black;
+   top: 5px;
+}
+section ul h3{
+    font-size: 45px;
+    font-family: work sans;
+}
+/*ajuste de footer*/
+footer{
+ height: 60px;
+
+}
+footer i{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+footer i:hover{
+    background-color:#fff;
+    transition: 1s ease;
 }
