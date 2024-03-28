@@ -57,8 +57,32 @@ section ul h3{
     font-size: 45px;
     font-family: work sans;
 }
+/* ajuste de project*/
+#card{
+    margin: 3px;
+    border: none;
+    padding: 5px;
+    background-color: #666;
+}
+#card:hover{
+    transform:   scale(1.05) ;
+    transition: .1s ease ;
+    cursor: pointer;
+}
+#card  .fa-github::before{
+    margin-right: 5px;
+}
+.fa-github{
+    border: none;
+}
+.fa-github:hover{
+    background-color: #ccc;
+
+ 
+}
 /* ajuste de skills*/
 .card:hover{
+transform: scale(1.1);
  transition: .1s ease;
 }
 /*ajuste de footer*/
@@ -66,12 +90,14 @@ footer{
  height: 60px;
 
 }
-footer i{
+footer a{
     display: flex;
     justify-content: space-around;
     font-size: 25px;
+    border: none;
 }
-footer i:hover{
+footer a:hover{
     background-color:#fff;
-    transition: 1s ease;
+    transform: scale(1.2);
+    transition: .1s ease;
 }

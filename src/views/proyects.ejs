@@ -8,29 +8,44 @@
 </head>
 <body>
     <%- include('partials/navigation.ejs') %>
-    <main class="ontainer vh-100 pt-2 text-center  d-flex justify-content-center align-items-center">
+    <main class="container vh-50 pt-2 text-center  d-flex justify-content-center align-items-center">
         <section>
-            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="10000">
-                    <img class="w-50" src="/img/ssetp.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item" data-bs-interval="2000">
-                    <img class="w-50" src="/img/pitbull.png"class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="w-50 " src="/img/ssetp.png" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
+          <div class="row justify-content-center p-2  ">
+          <div id="card" class="card my-2" style="width: 17rem;">
+            <img src="/img/lista.png" class="card " alt="...">
+            <div class="card-body">
+              <h5 class="card-title"> List check</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="https://github.com/hdtoledo/adso2617502/tree/master/src/andresfelipe/projects/listachequeo"  target="_blank"   class="btn btn-primary fa-brands fa-github">Go </a>
+            </div>
+          </div>
+          <div id="card" class="card my-2 " style="width: 17rem;">
+            <img src="/img/chiste.png" class="card " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">DOM API</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="https://github.com/hdtoledo/adso2617502/tree/master/src/andresfelipe/projects/api" target="_blank"  class="btn btn-primary fa-brands fa-github">Go </a>
+            </div>
+          </div>
+          <div id="card" class="card my-2 " style="width: 17rem;">
+            <img src="/img/ssetp.png" class="card " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">SSETP</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="https://github.com/Andres2389/SS-ETP/tree/master"  target="_blank"  class="btn btn-primary fa-brands fa-github">Go </a>
+            </div>
+          </div>
+          <div id="card" class="card my-2 " style="width: 17rem;">
+            <img src="/img/crono.png" class="card " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Conometro</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="https://github.com/hdtoledo/adso2617502/tree/master/src/andresfelipe/projects/dom-conometro" target="_blank" class="btn btn-primary fa-brands fa-github">Go </a>
+            </div>
+          </div>
+          
+
+        </div>
     </section>
     </main>
     <%- include('partials/footer.ejs') %>
